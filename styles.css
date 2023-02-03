@@ -1,0 +1,16 @@
+/*styles.css*/
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    width: 360px;
+    height: 360px;
+    border: 3px solid black;
+}
+.grid {
+    border: 1px solid gray;
+}
